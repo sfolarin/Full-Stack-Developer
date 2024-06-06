@@ -1,0 +1,15 @@
+1. Create Remote repository on
+
+-- Github, bitbucket, codecommit
+
+2. Clone Repo to local
+
+-- git clone URL
+
+3. Local to Remote Integration
+
+-- cd to local repo
+-- git remote add origin
+   ssh://git@github.com/[username]/[repository-name].git
+-- git push
+-- git pull (to fetch latest changes)
