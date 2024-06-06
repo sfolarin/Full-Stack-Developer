@@ -1,0 +1,14 @@
+1. Set the name and email for Git to use when you commit:
+- git config --global user.name "sfolarin"
+- git config --global user.email sfolarin@usf.edu
+
+2. Create Directory
+
+3. Initialize dir with
+- git init
+
+4. Create Readme.md file
+- git add (staging)
+- git commit (local commit)
+
+
