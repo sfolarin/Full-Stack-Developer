@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercise</title>
+    <style>
+        .Container {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr;
+            gap:3rem;
+        }
+        div *{
+            height: 100px;
+            width: 100px
+        }
+        .a {
+            background-color: #00B9FF;
+            grid-column:span 2;
+        
+
+        }
+
+        .b {
+            background-color:firebrick;
+         
+        }
+
+        .c {
+            background-color:firebrick;
+         
+        }
+
+ 
+    </style>
+  
+</head>
+<body>
+    <div class="Container">
+        <div class="item1 a">1</div>
+        <div class="item1 b">2</div>
+        <div class="item1 c">3</div>
+      
+    </div>
+    
+    
+</body>
+</html>
