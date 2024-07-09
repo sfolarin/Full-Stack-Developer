@@ -11,10 +11,10 @@ $emailPassword = '40688@aust';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize input data (example with htmlspecialchars)
-    $firstName = htmlspecialchars($_POST['firstName']);
-    $lastName = htmlspecialchars($_POST['lastName']);
+    $firstName = htmlspecialchars($_POST['first_name']);
+    $lastName = htmlspecialchars($_POST['last_name']);
     $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
+    $phone = htmlspecialchars($_POST['phone_number']);
     $message = htmlspecialchars($_POST['message']);
 
     // Create PHPMailer instance
